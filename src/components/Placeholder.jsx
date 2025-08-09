@@ -1,6 +1,6 @@
 // src/components/Placeholder.jsx
 
-import hero from "../assets/hero.jpg";
+import hero from "../assets/hero.png";
 
 export default function Placeholder() {
   return (
