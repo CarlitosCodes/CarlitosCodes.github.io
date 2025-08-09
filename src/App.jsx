@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 // src/App.jsx
-import Placeholder from "./components/Placeholder";
+import Placeholder from "./components/Placeholder.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
