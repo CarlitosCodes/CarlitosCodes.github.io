@@ -5,12 +5,11 @@ import hero from "../assets/hero.png";
 export default function Placeholder() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <img
+        <img
           src={hero}
-          alt="working-progress image"
+          alt="Carlitos portrait with code on screen"
           className="mx-auto w-full max-w-md rounded-2xl shadow-lg"
-          loading="eager"
-          decoding="async"
+          width="640" height="360"
         />
       <h1 className="text-4xl font-bold text-gray-800">
         Hello, World! 🌍 This is Carlos Website.
