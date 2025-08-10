@@ -1,7 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 
 const modules = import.meta.glob("../posts/*.mdx", { eager: true });
-// Map slug -> module
 const bySlug = Object.fromEntries(
   Object.values(modules).map(m => [m.meta.slug, m])
 );
@@ -22,7 +21,7 @@ export default function Post() {
 
   const MDX = mod.default;
   return (
-    <main className="prose prose-slate max-w-3xl mx-auto p-6">
+    <main className="prose prose-slate dark:prose-invert max-w-3xl mx-auto p-6">
       <h1>{mod.meta.title}</h1>
       <p className="text-sm text-gray-500">
         {new Date(mod.meta.date).toLocaleDateString()}
@@ -34,3 +33,4 @@ export default function Post() {
     </main>
   );
 }
+
