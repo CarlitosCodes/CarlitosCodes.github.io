@@ -5,7 +5,7 @@ export default function Links() {
     { label: "LinkedIn", href: "https://www.linkedin.com/in/..." },
   ];
   return (
-    <main className="max-w-3xl mx-auto p-6">
+    <main className="max-w-5xl mx-auto px-4 py-6">
       <h1 className="text-3xl font-bold mb-4">Links</h1>
       <ul className="space-y-3">
         {items.map(i => (

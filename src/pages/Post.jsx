@@ -11,7 +11,7 @@ export default function Post() {
 
   if (!mod) {
     return (
-      <main className="max-w-3xl mx-auto p-6">
+      <main className="max-w-5xl mx-auto px-4 py-6">
         <h1 className="text-2xl font-bold">Not found</h1>
         <p className="mt-2">That post doesn’t exist.</p>
         <Link className="underline" to="/blog">Back to blog</Link>
@@ -21,7 +21,7 @@ export default function Post() {
 
   const MDX = mod.default;
   return (
-    <main className="prose prose-slate dark:prose-invert max-w-3xl mx-auto p-6">
+    <main className="prose prose-slate dark:prose-invert max-w-5xl mx-auto px-4 py-6">
       <h1>{mod.meta.title}</h1>
       <p className="text-sm text-gray-500">
         {new Date(mod.meta.date).toLocaleDateString()}
