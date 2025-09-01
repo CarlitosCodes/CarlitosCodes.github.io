@@ -21,7 +21,6 @@ export default function Links() {
         
         Find out about my progress on my blog. 
         See my portfolio section and find me on LinkedIn and shoot me a DM.
-
         </p>
       </section>
     </main>
