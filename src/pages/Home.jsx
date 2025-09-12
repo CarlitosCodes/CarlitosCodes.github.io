@@ -19,6 +19,8 @@ export default function Home() {
           From Controls Engineer to ML/AI engineer
         </p>
 
+
+
         <nav aria-label="Primary">
           <ul className="flex items-center justify-center gap-6">
             <li><a className="underline underline-offset-4 hover:opacity-80 focus:outline-none focus:ring" href="/blog">Blog</a></li>
@@ -26,6 +28,15 @@ export default function Home() {
             <li><a className="underline underline-offset-4 hover:opacity-80 focus:outline-none focus:ring" href="/about">About</a></li>
           </ul>
         </nav>
+
+        <p className="text-gray-900 dark:text-gray-300 !text-left">
+          
+        </p>
+
+        <p className="text-gray-900 dark:text-gray-300 !text-left">
+          (Website is under construction so that's why it may seem all over the place 👷🚧🏗️⚠️)
+        </p>
+
       </section>
     </main>
   );
