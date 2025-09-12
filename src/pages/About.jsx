@@ -2,19 +2,19 @@ export default function About() {
   return (
     <main className="max-w-5xl mx-auto px-4 py-6">
       <section className="max-w-3xl mx-auto space-y-6 text-left">
-        <h2 className="text-2xl font-bold !text-left">Hi! 👋️</h2>
-
-
-        <p className="text-gray-900 dark:text-gray-300 !text-left">
-          I'm Carlos!
-        </p>
+        <h2 className="text-2xl font-bold !text-left">Hi, I'm Carlos! 👋️</h2>
         
         <p className="text-gray-900 dark:text-gray-300 !text-left">
-        I am a Controls Engineer doing a Masters in Computer Science with a dream of working in ML or AI (I'm still exploring).
+        I am a Controls Engineer with a dream of working as an ML or AI engineer (I'm still exploring).
         </p>
         
+
         <p className="text-gray-900 dark:text-gray-300 !text-left">
-          Currently working as a data/controls engineer at the happiest place on earth. I work with all things IIoT which led me to explore and become passionate about ML.
+        Currently I am doing my Masters in Computer Science in the ML specialization at Georgia Tech.
+        </p>
+
+        <p className="text-gray-900 dark:text-gray-300 !text-left">
+        On a day-to-day basis, I work as a data/controls engineer at the happiest place on earth, where I focus on collecting and managing data from IIoT devices. Working closely with data collection is what sparked my interest in machine learning.
         </p>
         
         <p className="text-gray-900 dark:text-gray-300 !text-left">
