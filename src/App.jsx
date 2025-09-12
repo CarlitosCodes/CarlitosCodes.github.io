@@ -10,7 +10,7 @@ import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Post from "./pages/Post";
 import Resume from "./pages/Resume";
-import Links from "./pages/Links";
+import About from "./pages/About";
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -41,7 +41,7 @@ export default function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<Post />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="/links" element={<Links />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );

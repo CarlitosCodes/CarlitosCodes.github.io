@@ -23,7 +23,7 @@ export default function Home() {
           <ul className="flex items-center justify-center gap-6">
             <li><a className="underline underline-offset-4 hover:opacity-80 focus:outline-none focus:ring" href="/blog">Blog</a></li>
             <li><a className="underline underline-offset-4 hover:opacity-80 focus:outline-none focus:ring" href="/resume">Resume</a></li>
-            <li><a className="underline underline-offset-4 hover:opacity-80 focus:outline-none focus:ring" href="/links">About</a></li>
+            <li><a className="underline underline-offset-4 hover:opacity-80 focus:outline-none focus:ring" href="/about">About</a></li>
           </ul>
         </nav>
       </section>

@@ -1,10 +1,16 @@
-export default function Links() {
+export default function About() {
   return (
     <main className="max-w-5xl mx-auto px-4 py-6">
       <section className="max-w-3xl mx-auto space-y-6 text-left">
         <h2 className="text-2xl font-bold !text-left">Hi! 👋️</h2>
-<p className="text-gray-900 dark:text-gray-300 !text-left">
-          I'm Carlos! I am a Controls Engineer doing a Masters in Computer Science with a dream of working in ML or AI (I'm still exploring).
+
+
+        <p className="text-gray-900 dark:text-gray-300 !text-left">
+          I'm Carlos!
+        </p>
+        
+        <p className="text-gray-900 dark:text-gray-300 !text-left">
+        I am a Controls Engineer doing a Masters in Computer Science with a dream of working in ML or AI (I'm still exploring).
         </p>
         
         <p className="text-gray-900 dark:text-gray-300 !text-left">
@@ -12,7 +18,7 @@ export default function Links() {
         </p>
         
         <p className="text-gray-900 dark:text-gray-300 !text-left">
-          Graduated with a BS Electrical Engineering with focus in electronics from Cal Poly Pomona.
+          I graduated with a BS Electrical Engineering with a focus in electronics from Cal Poly Pomona.
         </p>
         
         <p className="text-gray-900 dark:text-gray-300 !text-left">

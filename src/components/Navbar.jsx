@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+// import { About, NavLink } from "react-router-dom";
 import SocialLinks from "./SocialLinks";
 
 export default function Navbar({ toggleDarkMode, isDarkMode }) {
@@ -14,7 +15,7 @@ export default function Navbar({ toggleDarkMode, isDarkMode }) {
           <NavLink to="/" className={active} end>Home</NavLink>
           <NavLink to="/blog" className={active}>Blog</NavLink>
           <NavLink to="/resume" className={active}>Resume</NavLink>
-          <NavLink to="/links" className={active}>About</NavLink>
+          <NavLink to="/about" className={active}>About</NavLink>
           {/* <SocialLinks /> */}
           <button onClick={toggleDarkMode} className="px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
             {isDarkMode ? '🌙' : '☀️'}
