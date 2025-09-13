@@ -24,6 +24,16 @@ const entries = [
     points: ["PLCs", "SCADA", "Databases"],
 
   },
+
+    {
+    year: "2013 — 2020",
+    title: "California State Polytechnic University, Pomona",
+    logo:  "/logos/cpp_logo.png",
+    body: "B.S. Electrical Engineering",
+    // points: ["PLCs", "SCADA", "Databases"],
+
+  },
+
 ];
 
 export default function Resume() {
@@ -31,9 +41,16 @@ export default function Resume() {
     <main className="max-w-6xl mx-auto px-4 py-12">
       {/* shared centered container for both title and timeline */}
       <div className="max-w-3xl mx-auto">
+        <section className="max-w-3xl mx-auto space-y-12 text-left">
+
         <h1 className="mb-8 text-center text-3xl md:text-4xl font-bold">Resume</h1>
 
         <Timeline entries={entries} />
+         
+         
+         </section>
+
+
       </div>
     </main>
   );
